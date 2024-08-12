@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    <div class="bg-blue-500 text-white p-8">
+        <h1> Test </h1>
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quis voluptates harum maxime reiciendis impedit provident, perspiciatis earum illum, sunt, laborum aut distinctio expedita iure animi esse! Reprehenderit, odit vel.
+        </p>
+        <a href="">Click me!</a>
+    </div>
+
+    <div class="grid grid-cols-4">
+        <div class="flex flex-col text-center justify-center bg-green-500 h-[250px]">
+            <h1 class="text-2xl text-white">Testosterone</h1>
+            <p class="text-white">
+                Some random text
+            </p>
+        </div>
+            <div class="flex flex-col text-center justify-center bg-orange-500 h-[250px]">
+            <h1 class="text-2xl text-white">Testosterone</h1>    
+            <p class="text-white">
+                Some random text
+            </p>
+        </div>
+                <div class="flex flex-col text-center justify-center bg-red-500 h-[250px]">
+                <h1 class="text-2xl text-white">Testosterone</h1>
+                <p class="text-white">
+                    Some random text
+                </p>
+        </div>
+                <div class="flex flex-col text-center justify-center bg-yellow-500 h-[250px]">
+                <h1 class="text-2xl text-white">Testosterone</h1>
+                <p class="text-white">
+                    Some random text
+                </p>
+        </div>
+    </div>
+
+    <nav class="grid grid-cols-1 md:grid-cols-2 bg-purple-500 p-8">
+        <div>
+            <h1 class="text-white text-xl">Football</h1>
+        </div>
+        <div class="flex flex-col md:flex-row mt-4 md:mt-0 justify-end text-white text-right gap-4">
+            <a href="hover:text-gray-200">Home</a>
+            <a href="hover:text-gray-200">Tickets</a>
+            <a href="hover:text-gray-200">About</a>
+            <a href="hover:text-gray-200">Contact</a>
+        </div>
+    </nav>
+
+    <header class="flex justify-center items-center bg-gray-200 h-[500px] mt-16">
+        <h1 class="text-8xl">We`re by far the greatest team!</h1>
+    </header>
+</body>
+</html>
