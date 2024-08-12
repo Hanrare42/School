@@ -1,0 +1,1 @@
+We just went tru all diffrent setups and programs to install
